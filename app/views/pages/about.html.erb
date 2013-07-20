@@ -1,0 +1,136 @@
+<div class="row page-header">
+	<div class="span2">
+		<%= image_tag 'berk_profile_pic.jpg', size: '128x128', class: 'img-rounded' %>
+	</div>
+	<div class="span10">
+		<h1>About Me</h1>
+		<h3><small>&#149; Web Developer  &#149; Passionate about Ruby on Rails &#149; MBA &#149; Computer Engineer </small></h3>
+	</div>
+</div>
+<div class="row">
+	<div class="span9">
+		<h2>Who?</h2>
+		<p>My name is Berk Caputcu. I'm from Turkey and currently living in Ottawa, ON. I graduated from Koc University with Computer Engineering degree in 2011. After graduation, I moved to Ottawa to do my MBA at Carleton University. I graduated from Carleton on December 2012. Currently I'm working at Troo Corp. where I'm responsible for Reporting Application of the product. </p>
+
+		<h2>Personal Projects</h2>
+		<div class="media">
+			<a class="pull-left" href="http://octranspo-live-updates.herokuapp.com/">
+				<%= image_tag 'oc-logo.jpg', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h4 class="media-heading">OC Transpo - Live Updates</h4>
+				This application displays live-data updates for multiple routes by using OC Transpo API. This application was built by using Ruby on Rails as the general framework. It helped me to improve and practice my Rails knowledge. More information can be found on the project's <%= link_to "webpage", "http://octranspo-live-updates.herokuapp.com/"%>. The source code is available on <%= link_to 'GitHub', 'https://github.com/bcaputcu/octranspo_bus_stops' %>.
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="#">
+				<%= image_tag 'o_m.png', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h4 class="media-heading">Order&More</h4>
+				This application allows customers to order their meals via iPads provided by the restaurant or their personal iOS devices. 3 people, including me, were involved in this project's development and it was presented as our senior project. As a result our team was awarded with the Best Senior Project in 2011. It was developed by using Objective-C, PHP and Javascript.
+			</div>
+		</div>
+		<h2>Experience</h2>
+		<div class="media">
+			<a class="pull-left" href="http://www.trootrack.com/">
+				<%= image_tag 'troo.png', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">Troo</h3>
+				<h5>Web App Developer</h5>
+				<ul>
+					<li>Worked on development of a new user interface for the Reporting Application</li>
+					<li>Developed Android and Blackberry Application that works as a tracking device and reports data to Troo's servers</li>
+					<li>Worked on development of a GWT based web application user interface</li>
+				</ul>
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="http://www.pozitron.com/">
+				<%= image_tag 'pozitron.png', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">Pozitron</h3>
+				<h5>Intern Mobile App Developer</h5>
+				<ul>
+					<li>Developed an Android app that finds the closest ATMs and banks.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="http://ca.mavi.com/">
+				<%= image_tag 'mavi.png', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">Mavi Jeans</h3>
+				<h5>Intern</h5>
+				<ul>
+					<li>Internship in IT Department</li>
+				</ul>
+			</div>
+		</div>
+		<h2>Education</h2>
+		<div class="media">
+			<a class="pull-left" href="http://www.carleton.ca/">
+				<%= image_tag 'carleton.png', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">Carleton University</h3>
+				<h5>MBA</h5>
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="http://www.ku.edu.tr/en">
+				<%= image_tag 'koc.jpg', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">Koc University</h3>
+				<h5>Computer Engineering</h5>
+			</div>
+		</div>
+		<div class="media">
+			<a class="pull-left" href="http://www.kocschool.k12.tr/en/home.aspx">
+				<%= image_tag 'koc_lise.jpeg', class: "media-object", width: 128 %> 
+			</a>
+			<div class="media-body">
+				<h3 class="media-heading">The Koc School</h3>
+				<h5>High School</h5>
+			</div>
+		</div>
+
+		<h2>Contact</h2>
+		<div class="row">
+			<div class="span3 text-center">
+				<ul class="unstyled">
+					<li>
+						<%= image_tag('email.png', title: 'Email')  %> 
+					</li>
+					<li>
+						<%= mail_to "berkcaputcu@gmail.com", "berkcaputcu@<span style='display: none'>null</span>gmail.com".html_safe, :encode => "hex" %>
+					</li>
+				</ul>
+			</div>
+			<div class="span3 text-center">				
+				<ul class="unstyled">
+					<li>
+						<%= image_tag('github.png', title: 'GitHub')  %> 
+					</li>
+					<li>
+						<%= link_to "/bcaputcu", "https://github.com/bcaputcu" %>
+					</li>
+				</ul>
+			</div>
+			<div class="span3 text-center">				
+				<ul class="unstyled">
+					<li>
+						<%= image_tag('linkedin.png', title:'LinkedIn')  %> 
+					</li>
+					<li>
+						<%= link_to "Berk Caputcu", "http://www.linkedin.com/pub/berk-caputcu/38/6/78a" %>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
