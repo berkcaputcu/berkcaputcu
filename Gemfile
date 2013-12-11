@@ -25,7 +25,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails'
 gem 'thin'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 2.1.1.0'
 gem 'newrelic_rpm'
 gem 'haml'
 
