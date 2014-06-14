@@ -1,3 +1,5 @@
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+
 defaults:
   -
     scope:
