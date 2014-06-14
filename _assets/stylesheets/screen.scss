@@ -4,13 +4,13 @@
 @import 'typography';
 @import 'syntax';
 
-$background-color: #F3F2EE;
+$background-color: #EBEBEB;
 $text-color: #333;
 $tint-color: #d25349;
 $dark-tint-color: darken($tint-color, 30%);
 
 body {
-  background-color: $background-color;
+  background-image: url(asset_path('ricepaper_v3.png'));
   color: $text-color;
   font-size:100%;
   font-size:18px;
