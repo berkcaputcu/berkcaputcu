@@ -40,6 +40,7 @@ GEM
       rb-kqueue (>= 0.2)
     maruku (0.7.0)
     multi_json (1.10.1)
+    newrelic_rpm (3.6.7.152)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.8)
@@ -78,5 +79,6 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   kramdown
+  newrelic_rpm
   rack-jekyll
   rake
